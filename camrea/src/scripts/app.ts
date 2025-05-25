@@ -1,0 +1,5 @@
+import './deviceSelect'
+import './cameraControl'
+import './replayControl'
+import './screenCapture'
+import './resetSize'
