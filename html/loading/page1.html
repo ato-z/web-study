@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./page.js"></script>
+</head>
+<body>
+
+    <aside class="loading show">
+        Loading...
+    </aside>
+
+    <main class="main page1" onclick="window.location.href='./page2.html'">
+        Page1
+        <img src="https://images7.alphacoders.com/137/1378827.png" width="100" />
+
+    </main>
+
+    <script>
+        window.addEventListener('load', () => { window.loader.hide() })
+
+        window.addEventListener('beforeunload', () => {
+            window.loader.show()
+        })
+    </script>
+</body>
+</html>
